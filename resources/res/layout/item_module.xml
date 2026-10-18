@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/tab_btn_width"
+    android:layout_height="@dimen/tab_btn_height">
+    <Button
+        android:textSize="@dimen/tab_btn_textSize"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/button"
+        android:background="@drawable/tab_btn_bg_selector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/tab_btn_margin"/>
+</LinearLayout>

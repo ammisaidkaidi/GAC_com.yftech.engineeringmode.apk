@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/bluetooth_message_display"
+            style="@style/title_style"/>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/bluetooth_local_name"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_local_name"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/bluetooth_local_address"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_local_address"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/bluetooth_local_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_local_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/bluetooth_remote_name"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_remote_name"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/bluetooth_remote_address"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_remote_address"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/bluetooth_connect_status"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_connect_status"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/bluetooth_RSSI"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_RSSI"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

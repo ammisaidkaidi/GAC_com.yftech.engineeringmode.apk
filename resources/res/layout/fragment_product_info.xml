@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/product_info"
+                style="@style/title_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_supplier"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_supplier"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_part_number"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_part_number"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_sn"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_sn"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_vin"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_vin"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <TextView
+            android:text="@string/product_info_software_version"
+            style="@style/title_style"/>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_mcu_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_mcu_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_mcu_boot_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_mcu_boot_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_system_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_system_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_avm_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_avm_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <TextView
+            android:text="@string/product_info_hardware_version"
+            style="@style/title_style"/>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_gps_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_gps_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_bluetooth_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_bluetooth_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_wifi_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_wifi_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_voice_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_voice_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/product_info_display"
+                style="@style/title_style"/>
+            <Button
+                android:textSize="@dimen/product_sync_screen_info_txt"
+                android:id="@+id/afresh"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/product_sync_screen_info"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                style="@style/common_button"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_display_sn"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_product_info_display_sn"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_display_pn"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_product_info_display_pn"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_display_create_date"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_product_info_display_create_date"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_display_software_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_product_info_display_software_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_display_hardware_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_product_info_display_hardware_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_display_supplier_software_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_product_info_display_supplier_software_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/product_info_display_supplier_hardware_version"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_product_info_display_supplier_hardware_version"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

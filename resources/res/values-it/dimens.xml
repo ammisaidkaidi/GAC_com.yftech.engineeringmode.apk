@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="band_layout_height">80dp</dimen>
+    <dimen name="band_text_layout_width">100dp</dimen>
+    <dimen name="band_text_size">28sp</dimen>
+    <dimen name="btn_layout_width">80dp</dimen>
+    <dimen name="btn_text_size">32sp</dimen>
+    <dimen name="divider_height">2dp</dimen>
+    <dimen name="edit_layout_width">100dp</dimen>
+    <dimen name="item_config_read_height">96dp</dimen>
+    <dimen name="item_config_read_width">96dp</dimen>
+    <dimen name="item_height">96dp</dimen>
+    <dimen name="item_height_min">72dp</dimen>
+    <dimen name="line_width">2dp</dimen>
+    <dimen name="line_width_margin">-2dp</dimen>
+    <dimen name="loudspeaker_txt">20sp</dimen>
+    <dimen name="main_exit_btn_txt">26sp</dimen>
+    <dimen name="main_title_txt">26sp</dimen>
+    <dimen name="product_sync_screen_info_txt">18sp</dimen>
+    <dimen name="tab_btn_height">100dp</dimen>
+    <dimen name="tab_btn_margin">12dp</dimen>
+    <dimen name="tab_btn_textSize">22sp</dimen>
+    <dimen name="tab_btn_width">240dp</dimen>
+    <dimen name="title_layout_height">60dp</dimen>
+    <dimen name="title_text_layout_width">330dp</dimen>
+    <dimen name="upgrade_dialog_height">400dp</dimen>
+    <dimen name="upgrade_dialog_width">690dp</dimen>
+</resources>

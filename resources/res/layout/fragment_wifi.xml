@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/WiFi_info"
+                style="@style/title_style"/>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/WIFI_switch_status"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/wifi_switch_status"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/WIFI_connect_status"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/wifi_connect_status"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/wifi_name"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/wifi_name"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/IP_address"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/IP_address"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/WiFi_connected_speed"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/wifi_connect_speed"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/Internet_ID"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/Internet_ID"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/WiFi_signal_strength"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/wifi_signal_strength"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/MAC_address"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/mac_address"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+            <RelativeLayout style="@style/item_layout_style">
+                <TextView
+                    android:text="@string/client_status_information"
+                    style="@style/item_title_style"/>
+                <TextView
+                    android:id="@+id/client_status_information"
+                    style="@style/item_content_style"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

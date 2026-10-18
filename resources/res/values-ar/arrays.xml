@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Internal_project_code">
+        <item>A88_A1</item>
+        <item>A58_B1</item>
+        <item>A79_C1</item>
+        <item>A79_C2</item>
+    </array>
+    <array name="atcmetaaon_option">
+        <item>int</item>
+        <item>Binary</item>
+    </array>
+    <array name="camera_type">
+        <item>NONE</item>
+        <item>AVM</item>
+        <item>RVC</item>
+    </array>
+    <array name="log_level">
+        <item>VERBOSE</item>
+        <item>DEBUG</item>
+        <item>INFO</item>
+        <item>WARN</item>
+        <item>ERROR</item>
+        <item>CLOSE</item>
+    </array>
+    <array name="log_open_close">
+        <item>اغلاق</item>
+        <item>فتح</item>
+    </array>
+    <array name="log_save_option">
+        <item>إغلاق</item>
+        <item>فتح (500 م مساحة)</item>
+    </array>
+</resources>

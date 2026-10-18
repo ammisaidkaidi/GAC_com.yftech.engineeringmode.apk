@@ -1,0 +1,152 @@
+[
+  {
+    "tag":"product_info",
+    "name":"主机产品信息",
+    "show":true
+  },
+  {
+    "tag":"log",
+    "name":"主机Log采集",
+    "show":true
+  },
+  {
+    "tag":"temperature_info",
+    "name":"温度信息",
+    "show":true
+  },
+  {
+    "tag":"usb_upgrade",
+    "name":"USB升级",
+    "show":true
+  },
+  {
+    "tag":"camera",
+    "name":"摄像头",
+    "show":true
+  },
+  {
+    "tag":"config",
+    "name":"下线配置功能",
+    "show":true
+  },
+  {
+    "tag":"tbox_info",
+    "name":"T-Box信息",
+    "show":false
+  },
+  {
+    "tag":"app_info",
+    "name":"APP版本信息",
+    "show":true
+  },
+  {
+    "tag":"internet",
+    "name":"以太网测试",
+    "show":false
+  },
+  {
+    "tag":"tuner",
+    "name":"Tuner",
+    "show":true
+  },
+  {
+    "tag":"wifi",
+    "name":"WiFi检测",
+    "show":true
+  },
+  {
+    "tag":"bluetooth",
+    "name":"蓝牙检测",
+    "show":true
+  },
+  {
+    "tag":"screen",
+    "name":"屏幕测试",
+    "show":true
+  },
+  {
+    "tag":"gps",
+    "name":"GPS信息",
+    "show":false
+  },
+  {
+    "tag":"source",
+    "name":"Source测试",
+    "show":false
+  },
+  {
+    "tag":"link",
+    "name":"手机互联测试",
+    "show":false
+  },
+  {
+    "tag":"mic",
+    "name":"麦克风测试",
+    "show":true
+  },
+  {
+    "tag":"digital_amplifier",
+    "name":"数字功放设置",
+    "show":false
+  },
+  {
+    "tag":"loudspeaker",
+    "name":"扬声器检测",
+    "show":true
+  },
+  {
+    "tag":"usb",
+    "name":"USB测试",
+    "show":true
+  },
+  {
+    "tag":"key",
+    "name":"中控按键检测",
+    "show":false
+  },
+  {
+    "tag":"steering_wheel_key",
+    "name":"方向盘按键检测",
+    "show":true
+  },
+  {
+    "tag":"fault_code_clean",
+    "name":"故障码检测与清除",
+    "show":true
+  },
+  {
+    "tag":"can",
+    "name":"CAN 总线通信状态",
+    "show":false
+  },
+  {
+    "tag":"backup_recovery",
+    "name":"Backup恢复",
+    "show":true
+  },
+  {
+    "tag":"additional",
+    "name":"附加功能",
+    "show":false
+  },
+  {
+    "tag": "atcmetazone",
+    "name": "AtcMetazone",
+    "show": true
+  },
+  {
+    "tag": "eq",
+    "name": "EQ",
+    "show": true
+  },
+  {
+    "tag": "aa_info",
+    "name": "aa info",
+    "show": true
+  },
+  {
+    "tag": "other",
+    "name": "其他",
+    "show": true
+  }
+]

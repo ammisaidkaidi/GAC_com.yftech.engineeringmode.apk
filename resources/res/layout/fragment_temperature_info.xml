@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/temperature_display"
+            style="@style/title_style"/>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/temperature_soc"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_soc"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/temperature_cpu"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_cpu"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/item_layout_style">
+            <TextView
+                android:text="@string/temperature_tft"
+                style="@style/item_title_style"/>
+            <TextView
+                android:id="@+id/tv_tft"
+                style="@style/item_content_style"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

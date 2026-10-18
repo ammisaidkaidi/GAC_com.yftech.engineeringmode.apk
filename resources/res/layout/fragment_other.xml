@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height">
+        <TextView
+            android:text="@string/other_hide_car"
+            style="@style/item_title_style"/>
+        <Switch
+            android:gravity="center_vertical"
+            android:id="@+id/hide_car"
+            android:paddingLeft="48dp"
+            android:paddingRight="48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:switchMinWidth="100dp"
+            android:layout_alignParentEnd="true"/>
+        <View style="@style/horizontal_divider_style"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height">
+        <TextView
+            android:text="@string/write_sn"
+            style="@style/item_title_style"/>
+        <Button
+            android:id="@+id/btn_write_sn_number"
+            android:text="@string/write_in"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:layout_alignParentEnd="true"
+            style="@style/common_button"/>
+        <View style="@style/horizontal_divider_style"/>
+    </RelativeLayout>
+</LinearLayout>
